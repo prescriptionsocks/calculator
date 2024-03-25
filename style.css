@@ -23,14 +23,12 @@
     width: 400px;
     border: 1px solid grey;
     background-color: #213155;
-    padding-top: 1rem;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .screen{
-    border: 1px solid white;
     height: 25%;
     width: 100%;
     display: flex;
@@ -71,10 +69,13 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.26);
     width: auto;
     height: auto;
     min-height: 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .number:hover{

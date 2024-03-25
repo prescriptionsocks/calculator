@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
@@ -12,28 +12,28 @@
         <div class="calc-wrapper">
             <div class="calc">
                 <div class="screen">
-                    <p class="screen-text">12-3</p>
+                    <p class="screen-text"></p>
                 </div>
                 <div class="buttons-wrapper">
                     <div class="buttons-numbers">
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">4</p></div>
-                        <div class="button number"><p class="buttton-text">C</p></div>
-                        <div class="button operator"><p class="buttton-text">=</p></div>
+                        <button class="button number" id="9" data-value="9" >9</button>
+                        <button class="button number" id="8" data-value="8" >8</button>
+                        <button class="button number" id="7" data-value="7" >7</button>
+                        <button class="button number" id="6" data-value="6" >6</button>
+                        <button class="button number" id="5" data-value="5" >5</button>
+                        <button class="button number" id="4" data-value="4" >4</button>
+                        <button class="button number" id="3" data-value="3" >3</button>
+                        <button class="button number" id="2" data-value="2" >2</button>
+                        <button class="button number" id="1" data-value="1" >1</button>
+                        <button class="button number" id="0" data-value="0" >0</button>
+                        <button class="button number clear" data-value="C">C</button>
+                        <button class="button operator equal" data-value="=">=</button>
                     </div>
                     <div class="buttons-operators">
-                        <div class="button operator"><p class="buttton-text">/</p></div>
-                        <div class="button operator"><p class="buttton-text">*</p></div>
-                        <div class="button operator"><p class="buttton-text">-</p></div>
-                        <div class="button operator"><p class="buttton-text">+</p></div>
+                        <button class="button operator" id="devide">/</button>
+                        <button class="button operator" id="multiply">*</button>
+                        <button class="button operator" id="subtract">-</button>
+                        <button class="button operator" id="add">+</button>
                     </div>
                     
                     
